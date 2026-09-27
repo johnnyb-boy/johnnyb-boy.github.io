@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>J.B.B's Website - Settings</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Sora:wght@400;500;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../theme.js"></script>
+    <noscript><h5>Notice: Scripts are disabled in your browser, this may break the website</h5></noscript>
+</head>
+<body>
+    <div class="wrap">
+        <header class="site-header">
+            <div class="title-group">
+                <img src="../images/favicon.ico" alt="J.B.B logo" onclick="goHome()">
+                <h1>Settings</h1>
+            </div>
+            <button class="switch" onclick="toggleTheme()" aria-label="Toggle dark theme"></button>
+        </header>
+
+        <nav class="pillnav">
+            <a href="../projects/">Projects</a>
+            <a href="../about/">About</a>
+            <a href="../">Home</a>
+        </nav>
+
+        <div class="card">
+            <h2 style="font-size:1.1rem;">Dark theme</h2>
+            <p class="muted" style="margin:0; font-size:.85rem;">Use the switch in the header, on any page, to toggle it. It applies across the whole site and stays saved for next time.</p>
+        </div>
+
+        <p class="muted" style="font-size:.8rem;">More settings may show up here eventually. For now this is the only one.</p>
+    </div>
+</body>
+</html>

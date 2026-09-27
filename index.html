@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>J.B.B's Website - Main Page</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Sora:wght@400;500;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="theme.js"></script>
+    <noscript><h5>Notice: Scripts are disabled in your browser, this may break the website</h5></noscript>
+</head>
+<body>
+    <div class="wrap">
+        <header class="site-header">
+            <div class="title-group">
+                <img src="images/favicon.ico" alt="J.B.B logo" onclick="goHome()">
+                <h1>J.B.B's Website</h1>
+            </div>
+            <button class="switch" onclick="toggleTheme()" aria-label="Toggle dark theme"></button>
+        </header>
+
+        <p class="muted">Welcome. Pick a page below.</p>
+
+        <div class="grid">
+            <a class="tile" href="projects/">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h5l2 3h11v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7z"/></svg>
+                <h3>Projects</h3>
+                <p>Things I've built.</p>
+            </a>
+            <a class="tile" href="about/">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.5"/><path d="M4.5 20c1.5-4 4.5-6 7.5-6s6 2 7.5 6"/></svg>
+                <h3>About</h3>
+                <p>Who I am, and why.</p>
+            </a>
+            <a class="tile" href="settings/">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 13.5a7.7 7.7 0 0 0 0-3l2-1.5-2-3.4-2.3 1a7.6 7.6 0 0 0-2.6-1.5L14 2h-4l-.5 2.6a7.6 7.6 0 0 0-2.6 1.5l-2.3-1-2 3.4 2 1.5a7.7 7.7 0 0 0 0 3l-2 1.5 2 3.4 2.3-1a7.6 7.6 0 0 0 2.6 1.5L10 22h4l.5-2.6a7.6 7.6 0 0 0 2.6-1.5l2.3 1 2-3.4z"/></svg>
+                <h3>Settings</h3>
+                <p>Theme, and not much else yet.</p>
+            </a>
+        </div>
+
+        <p class="thanks">✦ Special thanks to <a class="thanks-name" href="http://itzmeshadow.pages.dev/" target="_blank" rel="noopener">ItzMeShadow999</a> <span class="thanks-sep">·</span> <a class="inline" href="https://github.com/ItzMeShadow999" target="_blank" rel="noopener">GitHub</a></p>
+
+        <hr>
+        <p class="muted" style="font-size:.8rem;">Hosted on <a class="inline" href="https://github.com/JohnnyB-Boy">GitHub Pages</a>.</p>
+    </div>
+</body>
+</html>
