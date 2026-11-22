@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(170, 170, 170);
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 0px;
+    font-size: 18px;
+    box-shadow: 0px 0px 5px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 0px;
+    font-size: 12px;
+    box-shadow: 0px 0px 5px;
+    
+}
+
+li{
+    display: inline;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+#hicon{
+    width: 30px;
+    height: 30px;
+    display: inline;
+}
+
+#buttonz{
+    cursor: pointer;
+}
+
+#heart{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: auto;
+    text-align: center;
+}
+
+#portext{
+    color: rgb(125, 125, 125);
+}
+
+#socialicons{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#clickable{
+    cursor: pointer;
+}
+
+
+
+
+#projlist{
+    background-color: black;
+    width: 90%;
+    height: 90%;
+}
